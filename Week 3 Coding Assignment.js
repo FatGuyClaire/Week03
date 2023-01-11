@@ -75,7 +75,6 @@ function fullName(firstName, lastName) {
 console.log(fullName('Claire', 'Green'));
 
 //Question 9
-let numbersArray = []
 function bigSum(numbersArray) {
     let sum = 0;
     for (let i = 0; i < numbersArray.length; i++) {
@@ -85,7 +84,7 @@ function bigSum(numbersArray) {
         return true;
     }
 }
-console.log(bigSum(numbersArray));
+console.log(bigSum(agesArray));
 
 //Question 10
 function averageNumber(array) {
@@ -95,7 +94,7 @@ function averageNumber(array) {
     }
     return sum / array.length;
 }
-console.log(averageNumber(numbersArray));
+console.log(averageNumber(agesArray));
 
 //Question 11
 function compareAverages(array1, array2) {
